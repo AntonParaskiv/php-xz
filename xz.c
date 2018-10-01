@@ -176,7 +176,7 @@ PHP_FUNCTION(xzopen)
 {
   char *filename;
   char *mode, *mode_to_pass;
-  int filename_len, mode_len;
+  long filename_len, mode_len;
   php_stream *stream;
   unsigned long compression_level = 6;
 
